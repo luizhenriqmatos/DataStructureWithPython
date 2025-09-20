@@ -1,1 +1,19 @@
 # DataStructureWithPython
+# Escreva uma lista com todas as estruturas de dados que você utiliza no python
+# listas, tuplas, dicionários, conjuntos (sets) e filas (queues), arvorés (trees) e grafos (graphs)
+
+print("Olá, eu sou um programa que lista as estruturas de dados em Python.")
+print("Você gostaria de saber quais estruturas de dados eu utilizo?")
+respostas = []
+while True:
+    resposta = input("Digite 'sim' para continuar ou 'não' para sair: ").strip().lower()
+    if resposta == 'sim':
+        respostas.append(resposta)
+        break
+    elif resposta == 'não':
+        print("Tudo bem, até a próxima!")
+        exit()
+    else:
+        print("Resposta inválida. Por favor, digite 'sim' ou 'não'.")
+print("Aqui estão as estruturas de dados que eu utilizo:")
+print("Estruturas de dados em Python: listas, tuplas, dicionários, conjuntos (sets) e filas (queues), arvorés (trees) e grafos (graphs)")                    
